@@ -12,7 +12,7 @@ export default function Home() {
   const [activeButton, setActiveButton] = useState(false);
 
   const getMoviesIndicates = async () => {
-    const lista = await Movies.getListMovies();
+    const lista = await Movies.getOscarMovies();
     setOscarMovies(lista);
   };
 

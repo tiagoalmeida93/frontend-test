@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
 import NoFound from "../NoFound/NoFound";
 import noImage from "./../../utils/images/noImage.png";
 
-// import { Container } from './styles';
-
 export default function CardsMovie(props) {
   return (
     <section className="movies" id="movies">

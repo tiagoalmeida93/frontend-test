@@ -5,7 +5,7 @@ import getBaseUrl from "./baseUrl.api";
 const Movies = {
   ById,
   Search,
-  getListMovies
+  getOscarMovies
 };
 
 async function ById(imdbID) {
@@ -32,7 +32,7 @@ async function Search(searchMovie) {
   return response;
 }
 
-async function getListMovies() {
+async function getOscarMovies() {
   const response = axios
     .all([
       getBaseUrl().get(`?apikey=${API_KEY}&i=tt6751668`),

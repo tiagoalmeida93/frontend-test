@@ -1,0 +1,53 @@
+.headerDetail {
+  background: #f7f7f7;
+  padding: 0px calc((100% - 960px) / 2);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.headerDetailInfo {
+  flex: 1 1 240px;
+  margin: 0 10px;
+}
+
+.headerDetailInfo h1 {
+  font-size: 3em;
+  color: #a4a4a4;
+  text-align: right;
+}
+
+.headerDetailInfo p {
+  font-size: 1.25em;
+  font-style: italic;
+  max-width: 230px;
+  color: #7c7c7c;
+  margin-bottom: 10px;
+}
+
+.headerDetailForm {
+  flex: 2 1 260px;
+  margin: 0 10px;
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.headerDetailForm button {
+  flex: 0 1;
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #540a6d;
+  color: white;
+  margin: 0px;
+  cursor: pointer;
+  border: 0px;
+  padding: 15px 10px;
+}
+
+@media (max-width: 600px) {
+  .headerDetailForm button {
+    font-size: 1.5em;
+  }
+}

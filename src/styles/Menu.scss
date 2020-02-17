@@ -1,39 +1,4 @@
-body,
-h1,
-h2,
-p,
-ul,
-li,
-a {
-  margin: 0px;
-  padding: 0px;
-}
-
-body {
-  font-family: "Nunito", Helvetica, Arial, sans-serif;
-  color: #222222;
-}
-
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-/*Menu*/
-
-.menu-bg {
+.menuBg {
   background: #540a6d;
 }
 
@@ -51,24 +16,24 @@ img {
   color: white;
 }
 
-.menu-logo a {
+.menuLogo a {
   font-size: 2.25em;
   font-weight: bold;
   margin: 0 10px;
 }
 
-.menu-nav ul {
+.menuNav ul {
   display: flex;
   flex-wrap: wrap;
 }
 
-.menu-nav a {
+.menuNav a {
   font-size: 1.25em;
   display: block;
   padding: 10px;
 }
 
-.menu-nav a:hover {
+.menuNav a:hover {
   color: #ae81ff;
   transition: 0.5s;
 }

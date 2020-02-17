@@ -1,16 +1,11 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import styles from "./styles.scss";
 
 export default function Search({ back }) {
   const [searchValue, setSearchValue] = useState("");
   return (
     <section className="search">
-      {back && (
-        <Link className={styles.backButton} to={"/"}>
-          {"<"}
-        </Link>
-      )}
+      {back && <Link to={"/"}>{"<"}</Link>}
       <form className="searchForm">
         <input
           type="text"

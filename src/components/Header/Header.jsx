@@ -1,8 +1,6 @@
 import React from "react";
 import history from "../../services/history";
 
-// import { Container } from './styles';
-
 export default function HeaderDetail(props) {
   return (
     <section className="headerDetail">
