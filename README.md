@@ -6,9 +6,21 @@ ReactJS / Hooks / Sass / FlexBox (Responsive)
 
 ## Screens
 
-Home
+*Home
 
 ![home](ScreenShots/ScreenHome.png)
+
+*Movie Detail
+
+![detail](ScreenShots/ScreenDetail.png)
+
+*Results
+
+![results](ScreenShots/ScreenResults.png)
+
+No Results
+
+![noResult](ScreenShots/ScreenNoResults.png)
 
 ## Instructions for running
 
